@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portofolio Saiful Anwar - IT Support & System Administrator berpengalaman dalam infrastruktur Data Center, Windows & Linux Server, Jaringan Mikrotik, Cisco, Ruijie, Virtualisasi, dan Cloud Workspace.">
+  <meta name="author" content="Saiful Anwar">
+  <meta name="keywords"
+    content="Saiful Anwar, IT Support, System Administrator, Data Center, Mikrotik, Ruijie, Cisco, Windows Server, Linux Debian, Proxmox, Google Workspace, Portfolio">
+  <title>Saiful Anwar | IT Support & System Administrator</title>
+
+  <!-- Google Fonts & FontAwesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232563eb%22/><text y=%2266%22 x=%2250%22 font-size=%2250%22 font-family=%22sans-serif%22 font-weight=%22bold%22 text-anchor=%22middle%22 fill=%22%23ffffff%22>SA</text></svg>">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-brand">
+        <div class="brand-icon">SA</div>
+        <span>Saiful<span class="gradient-text">.IT</span></span>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active">Beranda</a></li>
+        <li><a href="#about" class="nav-link">Tentang</a></li>
+        <li><a href="#skills" class="nav-link">Keahlian</a></li>
+        <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+        <li><a href="#education" class="nav-link">Pendidikan</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="cv.pdf" target="_blank" class="btn btn-outline btn-sm">
+          <i class="fa-solid fa-file-pdf"></i> Unduh CV
+        </a>
+        <a href="mailto:anwar5th@gmail.com" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-envelope"></i> Kirim Email
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            Terbuka untuk Peluang Kerja & Kolaborasi IT
+          </div>
+          <h1 class="hero-title">
+            Halo, Saya <br>
+            <span class="gradient-text">Saiful Anwar</span>
+          </h1>
+          <div class="hero-subtitle" id="heroSubtitle">IT Support & System Administrator</div>
+          <p class="hero-description">
+            Lulusan S1 Sistem Informasi dengan spesialisasi di IT Spesialis & System Administrator. Berpengalaman lebih dari 10 tahun dalam perencanaan & pembangunan infrastruktur Data Center, administrasi Windows & Linux Server, troubleshooting jaringan Tier 1-3 (Mikrotik, Cisco, Ruijie), virtualisasi server, serta migrasi Google Workspace.
+          </p>
+
+          <div class="hero-cta">
+            <a href="cv.pdf" target="_blank" class="btn btn-primary">
+              <i class="fa-solid fa-file-pdf"></i> Unduh CV (PDF)
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-envelope"></i> Hubungi Email
+            </a>
+            <a href="#experience" class="btn btn-outline">
+              <i class="fa-solid fa-briefcase"></i> Lihat Pengalaman
+            </a>
+            <a href="https://www.linkedin.com/in/saiful-anwar-304217138/" target="_blank" class="btn btn-outline">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-number" data-target="10" data-suffix="+">0</span>
+              <span class="stat-label">Tahun Pengalaman</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="4" data-suffix="">0</span>
+              <span class="stat-label">Perusahaan & RS</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number" data-target="25" data-suffix="+">0</span>
+              <span class="stat-label">Tech Stack & Tools</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="avatar-wrapper">
+            <div class="avatar-glow"></div>
+            <div class="avatar-img-box">
+              <img src="img/foto.jpg" alt="Saiful Anwar" class="avatar-img">
+            </div>
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-top-left">
+              <i class="fa-solid fa-server" style="color: var(--accent-cyan);"></i> Data Center & Server
+            </div>
+            <div class="floating-badge badge-bottom-right">
+              <i class="fa-solid fa-network-wired" style="color: var(--accent-emerald);"></i> Mikrotik & Ruijie
+            </div>
+            <div class="floating-badge badge-bottom-left">
+              <i class="fa-solid fa-cloud" style="color: var(--accent-purple);"></i> Google Workspace & Cloud
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="fa-solid fa-user"></i> Profil Profesional</span>
+        <h2 class="section-title">Tentang <span class="gradient-text">Saya</span></h2>
+        <p class="section-description">
+          Ringkasan profil, dedikasi, dan kompetensi utama di bidang IT Support & System Administration
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <h3 style="margin-bottom: 1rem; font-size: 1.4rem;">Siapa Saiful Anwar?</h3>
+          <p class="about-text">
+            Saya seorang lulusan <strong>S1 Sistem Informasi</strong> dengan spesialisasi di <strong>IT Spesialis & System Administrator</strong>. Memiliki pengalaman solid lebih dari 10 tahun di bidang support perangkat keras, jaringan, dan sistem server enterprise.
+          </p>
+          <p class="about-text">
+            Memiliki kemampuan manajemen operasional, perencanaan infrastruktur Data Center, analisa data matriks IT & KPI, serta komunikasi interpersonal yang sangat baik. Senantiasa berorientasi pada kestabilan sistem (high uptime), efisiensi operasional IT, kepatuhan standar mutu (ISO 9001:2015 & SNARS), serta memiliki antusiasme tinggi untuk terus mempelajari teknologi baru. Mencari peluang kerja yang memberi kesempatan untuk semakin berkembang.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-server"></i></div>
+              <div>
+                <div class="highlight-title">Data Center & Infrastruktur</div>
+                <div class="highlight-desc">Layout data center, rack server, CCTV, PABX, sound system & RAB</div>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-network-wired"></i></div>
+              <div>
+                <div class="highlight-title">Troubleshooting Tier 1, 2, 3</div>
+                <div class="highlight-desc">Mikrotik, Switch Ruijie, Mesh Wi-Fi, OS, website & printer support</div>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-brands fa-windows"></i></div>
+              <div>
+                <div class="highlight-title">Windows & Linux Server</div>
+                <div class="highlight-desc">Active Directory Domain Service, Debian, Ubuntu, Proxmox & Qnap NAS</div>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fa-solid fa-cloud"></i></div>
+              <div>
+                <div class="highlight-title">Cloud & IT Governance</div>
+                <div class="highlight-desc">Migrasi Google Workspace, ERP JD Edwards, KPI IT & ISO 9001:2015</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-info-list reveal">
+          <div class="about-card"
+            style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <h3 style="margin-bottom: 1.5rem; font-size: 1.4rem;"><i class="fa-solid fa-circle-info"
+                  style="color: var(--accent-cyan);"></i> Informasi Ringkas</h3>
+              <ul style="list-style: none; display: grid; gap: 1.1rem;">
+                <li
+                  style="display: flex; justify-content: space-between; border-bottom: 1px dashed var(--glass-border); padding-bottom: 0.75rem;">
+                  <span style="color: var(--text-muted);"><i class="fa-solid fa-user-tag"
+                      style="margin-right: 0.5rem; color: var(--accent-cyan);"></i> Spesialisasi:</span>
+                  <span style="font-weight: 600;">IT Support & System Admin</span>
+                </li>
+                <li
+                  style="display: flex; justify-content: space-between; border-bottom: 1px dashed var(--glass-border); padding-bottom: 0.75rem;">
+                  <span style="color: var(--text-muted);"><i class="fa-solid fa-envelope"
+                      style="margin-right: 0.5rem; color: var(--accent-cyan);"></i> Email:</span>
+                  <a href="mailto:anwar5th@gmail.com"
+                    style="color: var(--accent-cyan); text-decoration: none; font-weight: 600; font-family: var(--font-mono); font-size: 0.95rem;">anwar5th@gmail.com</a>
+                </li>
+                <li
+                  style="display: flex; justify-content: space-between; border-bottom: 1px dashed var(--glass-border); padding-bottom: 0.75rem;">
+                  <span style="color: var(--text-muted);"><i class="fa-brands fa-linkedin"
+                      style="margin-right: 0.5rem; color: #0a66c2;"></i> LinkedIn:</span>
+                  <a href="https://www.linkedin.com/in/saiful-anwar-304217138/" target="_blank"
+                    style="color: var(--accent-cyan); text-decoration: none; font-weight: 600;">saiful-anwar-304217138</a>
+                </li>
+                <li
+                  style="display: flex; justify-content: space-between; border-bottom: 1px dashed var(--glass-border); padding-bottom: 0.75rem;">
+                  <span style="color: var(--text-muted);"><i class="fa-brands fa-github"
+                      style="margin-right: 0.5rem; color: var(--accent-purple);"></i> GitHub:</span>
+                  <a href="https://github.com/anwar5th" target="_blank"
+                    style="color: var(--accent-cyan); text-decoration: none; font-weight: 600;">github.com/anwar5th</a>
+                </li>
+                <li
+                  style="display: flex; justify-content: space-between; border-bottom: 1px dashed var(--glass-border); padding-bottom: 0.75rem;">
+                  <span style="color: var(--text-muted);"><i class="fa-solid fa-globe"
+                      style="margin-right: 0.5rem; color: var(--accent-cyan);"></i> Portofolio:</span>
+                  <a href="https://anwar5th.github.io/portofolio/" target="_blank"
+                    style="color: var(--accent-cyan); text-decoration: none; font-weight: 600;">anwar5th.github.io/portofolio</a>
+                </li>
+                <li style="display: flex; justify-content: space-between;">
+                  <span style="color: var(--text-muted);"><i class="fa-solid fa-graduation-cap"
+                      style="margin-right: 0.5rem; color: var(--accent-amber);"></i> Pendidikan:</span>
+                  <span style="font-weight: 600;">S1 Sistem Informasi (UT)</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="about-value-box">
+              <div class="about-value-title">
+                <i class="fa-solid fa-lightbulb"></i> Etos Kerja & Nilai
+              </div>
+              <div class="about-value-text">
+                "Efisiensi infrastruktur, kestabilan server & jaringan, serta kepatuhan standar SOP dan ISO adalah fondasi utama dalam setiap pengelolaan IT modern."
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS & TECH STACK SECTION -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="fa-solid fa-microchip"></i> Matriks Keahlian</span>
+        <h2 class="section-title">Keahlian & <span class="gradient-text">Teknologi</span></h2>
+        <p class="section-description">
+          Penguasaan teknis komprehensif mengacu pada rekam jejak profesional di bidang server, jaringan enterprise, cloud, database, dan tata kelola IT
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="skills-filter reveal">
+        <button class="filter-btn active" data-filter="all">Semua Tech Stack</button>
+        <button class="filter-btn" data-filter="server">Server & Cloud</button>
+        <button class="filter-btn" data-filter="network">Network & Hardware</button>
+        <button class="filter-btn" data-filter="dev">Programming & DB</button>
+        <button class="filter-btn" data-filter="system">Enterprise & Governance</button>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid reveal">
+
+        <!-- Server & OS -->
+        <div class="skill-card" data-category="server">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-server"></i></div>
+            <div>
+              <div class="skill-card-title">Windows & Linux Server</div>
+              <div class="skill-card-category">Server & Cloud</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Windows Server 2012</span>
+            <span class="skill-tag">Windows Server 2019</span>
+            <span class="skill-tag">Active Directory Domain Service</span>
+            <span class="skill-tag">Linux Debian Server</span>
+            <span class="skill-tag">Ubuntu Server</span>
+            <span class="skill-tag">RedHat Enterprise</span>
+            <span class="skill-tag">Bare Metal Server Setup</span>
+          </div>
+        </div>
+
+        <!-- Virtualization & Cloud -->
+        <div class="skill-card" data-category="server">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-cubes"></i></div>
+            <div>
+              <div class="skill-card-title">Virtualization & Cloud</div>
+              <div class="skill-card-category">Server & Cloud</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Proxmox VE</span>
+            <span class="skill-tag">VMware ESXi</span>
+            <span class="skill-tag">Docker Container</span>
+            <span class="skill-tag">Google Workspace (Authorized Partner)</span>
+            <span class="skill-tag">Microsoft 365</span>
+            <span class="skill-tag">Hostinger Web Hosting</span>
+            <span class="skill-tag">NAS Storage (Qnap)</span>
+          </div>
+        </div>
+
+        <!-- Networking & Routing -->
+        <div class="skill-card" data-category="network">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-network-wired"></i></div>
+            <div>
+              <div class="skill-card-title">Router & Switch Configuration</div>
+              <div class="skill-card-category">Network & Hardware</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Router Mikrotik</span>
+            <span class="skill-tag">Ruijie Router & Wi-Fi Mesh</span>
+            <span class="skill-tag">Cisco Router</span>
+            <span class="skill-tag">Manageable Switch Ruijie</span>
+            <span class="skill-tag">Edge Core Switch</span>
+            <span class="skill-tag">Netgear Switch</span>
+            <span class="skill-tag">Active POE Switch</span>
+          </div>
+        </div>
+
+        <!-- Network Security & Monitoring -->
+        <div class="skill-card" data-category="network">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+            <div>
+              <div class="skill-card-title">Security & Network Monitoring</div>
+              <div class="skill-card-category">Network & Hardware</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Wireshark</span>
+            <span class="skill-tag">Snort IDS/IPS</span>
+            <span class="skill-tag">Firewall (UFW & Iptables)</span>
+            <span class="skill-tag">ClamAV Antivirus</span>
+            <span class="skill-tag">PRTG Network Monitor</span>
+            <span class="skill-tag">The Dude (Mikrotik)</span>
+            <span class="skill-tag">Zabbix Monitoring</span>
+            <span class="skill-tag">PingPlotter & IPScan</span>
+            <span class="skill-tag">MobaXterm</span>
+          </div>
+        </div>
+
+        <!-- Hardware, Cabling & Telecom -->
+        <div class="skill-card" data-category="network">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-video"></i></div>
+            <div>
+              <div class="skill-card-title">CCTV, VoIP & Tata Suara</div>
+              <div class="skill-card-category">Network & Hardware</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">UNV NVR & DVR CCTV</span>
+            <span class="skill-tag">Hikvision CCTV</span>
+            <span class="skill-tag">VoIP (Yeastar & Yealink)</span>
+            <span class="skill-tag">IP PABX Server (Debian)</span>
+            <span class="skill-tag">Tata Suara Amplifier & Bel</span>
+            <span class="skill-tag">Manajemen Kabel UTP & RJ45</span>
+            <span class="skill-tag">Kabel Coaxial & BNC</span>
+            <span class="skill-tag">Indorak Rack Server Setup</span>
+          </div>
+        </div>
+
+        <!-- Programming & Automation -->
+        <div class="skill-card" data-category="dev">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-code"></i></div>
+            <div>
+              <div class="skill-card-title">Programming & Automation</div>
+              <div class="skill-card-category">Programming & DB</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Laravel Framework</span>
+            <span class="skill-tag">Python Scripting</span>
+            <span class="skill-tag">Bash Shell Linux</span>
+            <span class="skill-tag">Crontab & Cronjob</span>
+            <span class="skill-tag">HTML5 & CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Database Management -->
+        <div class="skill-card" data-category="dev">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-database"></i></div>
+            <div>
+              <div class="skill-card-title">Database Management</div>
+              <div class="skill-card-category">Programming & DB</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Microsoft SQL Server</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Apache Solr Database</span>
+            <span class="skill-tag">Backup & Restore DB</span>
+            <span class="skill-tag">Migrasi Database</span>
+            <span class="skill-tag">Query Execution & Monitoring</span>
+          </div>
+        </div>
+
+        <!-- Enterprise Applications -->
+        <div class="skill-card" data-category="system">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-building-user"></i></div>
+            <div>
+              <div class="skill-card-title">Sistem ERP & Aplikasi Bisnis</div>
+              <div class="skill-card-category">Enterprise & Governance</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">ERP JD Edwards</span>
+            <span class="skill-tag">Patching & Deployment ERP</span>
+            <span class="skill-tag">Odoo ERP</span>
+            <span class="skill-tag">SIMRS (Sistem RS)</span>
+            <span class="skill-tag">Aplikasi IT Asset (Laravel)</span>
+            <span class="skill-tag">Web E-Ticketing Request IT</span>
+          </div>
+        </div>
+
+        <!-- IT Governance, Standards & Reporting -->
+        <div class="skill-card" data-category="system">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-clipboard-check"></i></div>
+            <div>
+              <div class="skill-card-title">Tata Kelola IT & Manajemen Mutu</div>
+              <div class="skill-card-category">Enterprise & Governance</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Pembuatan KPI IT Support</span>
+            <span class="skill-tag">Matriks Analisa Support IT</span>
+            <span class="skill-tag">Laporan Bulanan IT</span>
+            <span class="skill-tag">ISO 9001:2015 Manajemen Mutu</span>
+            <span class="skill-tag">Akreditasi Rumah Sakit (SNARS)</span>
+            <span class="skill-tag">Penyusunan RAB & SOP IT</span>
+          </div>
+        </div>
+
+        <!-- Development Tools & IDE -->
+        <div class="skill-card" data-category="dev">
+          <div class="skill-card-header">
+            <div class="skill-icon-box"><i class="fa-solid fa-terminal"></i></div>
+            <div>
+              <div class="skill-card-title">IDE & Support Tools</div>
+              <div class="skill-card-category">Programming & DB</div>
+            </div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Antigravity IDE</span>
+            <span class="skill-tag">Sublime Text Editor</span>
+            <span class="skill-tag">Git & GitHub</span>
+            <span class="skill-tag">Remote SSH & Telnet</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE TIMELINE SECTION -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="fa-solid fa-timeline"></i> Rekam Jejak</span>
+        <h2 class="section-title">Pengalaman <span class="gradient-text">Kerja</span></h2>
+        <p class="section-description">
+          Riwayat karir profesional dan kontribusi penting di berbagai perusahaan & institusi
+        </p>
+      </div>
+
+      <div class="timeline reveal">
+
+        <!-- Experience 1: PT. Nifa Persada Teknindo -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-company">PT. Nifa Persada Teknindo</h3>
+            <div class="timeline-role">IT Support Officer</div>
+            <div class="timeline-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Head Office & Cabang Workshop</span>
+              <span>•</span>
+              <span><i class="fa-solid fa-calendar-days"></i> Jul 2025 – Sekarang</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Menganalisa kebutuhan Infrastruktur Data Center IT untuk area Head Office dan Cabang Workshop. Kemudian membuat layout tata letak dan draft spesifikasi Hardware Server (Jaringan Internet, CCTV, PABX, Sound) disertai dengan Anggaran Pembelian (RAB), untuk diproses dan mendapat persetujuan manager selama 1 Bulan.</li>
+              <li>Merealisasikan membangun Data Center (Head Office & Cabang Workshop), selesai tuntas dalam 2 Bulan.</li>
+              <li>Support Troubleshooting Tier 1, 2, dan 3 (Troubleshooting dan konfigurasi jaringan internet menggunakan Router Mikrotik, Manageable Switch Ruijie, Wi-Fi Mesh Ruijie, troubleshooting komputer, printer, dan sistem operasi, troubleshooting website, serta hosting website).</li>
+              <li>Memimpin migrasi dari penggunaan Microsoft Office ke Google Workspace: mulai dari tahap pencarian Authorized Google Workspace Partner, training user dalam penggunaan Google Workspace, hingga membuat jadwal migrasi sampai ke tahap launching resmi.</li>
+              <li>Membuat aplikasi E-Ticketing Request layanan IT berbasis Aplikasi Web.</li>
+              <li>Menyusun KPI (Key Performance Indicators) IT Support dan membuat Data Matriks IT untuk kebutuhan Analisa Support IT agar mengoptimalkan pekerjaan IT.</li>
+              <li>Membuat Laporan Bulanan IT secara komprehensif.</li>
+              <li>Mengikuti dan menerapkan Program Manajemen Mutu standar ISO 9001:2015.</li>
+            </ul>
+            <div class="timeline-tech-stack">
+              <span class="tech-chip">Data Center Build</span>
+              <span class="tech-chip">Router Mikrotik</span>
+              <span class="tech-chip">Switch & Mesh Ruijie</span>
+              <span class="tech-chip">Google Workspace Migration</span>
+              <span class="tech-chip">Web E-Ticketing</span>
+              <span class="tech-chip">KPI IT Support</span>
+              <span class="tech-chip">Data Matriks IT</span>
+              <span class="tech-chip">ISO 9001:2015</span>
+              <span class="tech-chip">Tier 1-3 Support</span>
+              <span class="tech-chip">Web & Hosting</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2: PT. Zinus Global Indonesia -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-company">PT. Zinus Global Indonesia</h3>
+            <div class="timeline-role">IT Support Specialist</div>
+            <div class="timeline-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Bogor</span>
+              <span>•</span>
+              <span><i class="fa-solid fa-calendar-days"></i> Ags 2020 – Jun 2025</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Pengelolaan dan maintenance rutin server dalam rack server (Indorak), meliputi Router Mikrotik, Switch Manageable Edge Core & Netgear, Active POE, UNV NVR CCTV, serta IP PABX Server berbasis Linux Debian Server.</li>
+              <li>Menginstal dan mengkonfigurasi Windows Server dengan Active Directory Domain Service (AD DS).</li>
+              <li>Menginstall Network Attached Storage (NAS Server) menggunakan Qnap untuk sentralisasi file storage.</li>
+              <li>Monitoring Server Windows dan Jaringan secara konsisten menggunakan PRTG Network Monitor dan The Dude.</li>
+              <li>Melakukan patching & deployment sistem ERP JD Edwards.</li>
+              <li>Mengembangkan program aplikasi Asset IT Management menggunakan PHP Framework Laravel.</li>
+              <li>Menginput laporan mingguan berkala mengenai kondisi server, diantaranya total kapasitas, suhu processor, dan load server.</li>
+            </ul>
+            <div class="timeline-tech-stack">
+              <span class="tech-chip">Windows Server AD DS</span>
+              <span class="tech-chip">Qnap NAS Server</span>
+              <span class="tech-chip">Router Mikrotik</span>
+              <span class="tech-chip">Edge Core & Netgear Switch</span>
+              <span class="tech-chip">Linux Debian Server</span>
+              <span class="tech-chip">PRTG & The Dude</span>
+              <span class="tech-chip">ERP JD Edwards</span>
+              <span class="tech-chip">Laravel Asset IT</span>
+              <span class="tech-chip">UNV NVR CCTV</span>
+              <span class="tech-chip">IP PABX</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3: PT. InMotion Inovasi Teknologi -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-company">PT. InMotion Inovasi Teknologi (InMotion)</h3>
+            <div class="timeline-role">IT Support Analyst</div>
+            <div class="timeline-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Jakarta</span>
+              <span>•</span>
+              <span><i class="fa-solid fa-calendar-days"></i> Sep 2019 – Feb 2020</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Melakukan Patch & Deploy produk software Artificial Intelligence (AI) & Chatbot kedalam Server Production.</li>
+              <li>Backup database Apache Solr & Konfigurasi metadata server menggunakan database MySQL.</li>
+              <li>Mengembangkan script automation menggunakan Bash Shell Linux untuk efisiensi operasional sistem.</li>
+              <li>Melakukan analisa performa produk AI dan menyusun report analisa secara komprehensif.</li>
+            </ul>
+            <div class="timeline-tech-stack">
+              <span class="tech-chip">AI & Chatbot Deployment</span>
+              <span class="tech-chip">Production Server</span>
+              <span class="tech-chip">Bash Shell Linux</span>
+              <span class="tech-chip">Apache Solr</span>
+              <span class="tech-chip">MySQL Database</span>
+              <span class="tech-chip">System Performance Analysis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 4: Rumah Sakit Aulia -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-company">Rumah Sakit Aulia</h3>
+            <div class="timeline-role">IT Kordinator</div>
+            <div class="timeline-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Jakarta</span>
+              <span>•</span>
+              <span><i class="fa-solid fa-calendar-days"></i> Jan 2015 – Sep 2019</span>
+            </div>
+            <ul class="timeline-list">
+              <li>Membangun Infrastruktur IT RS Aulia: mencakup penataan lalu lintas jaringan menuju server, penataan komputer server, router, dan switch kedalam rack server, serta setup & maintenance Windows Server.</li>
+              <li>Upgrade dan Migrasi dari Windows Server 2008 ke 2012, kemudian installasi awal Active Directory Domain Service dan File Server Resource Manager (FSRM).</li>
+              <li>Eksekusi query & konfigurasi database SQL Server, backup & restore, migrasi database SQL Server, serta monitoring berkala.</li>
+              <li>Menyusun anggaran RAB IT & membuat Standar Operasional Prosedur (SOP IT) institusi.</li>
+              <li>Maintenance penuh SIMRS (System Management Rumah Sakit) & pengawasan jaringan secara 24/7.</li>
+              <li>Berperan aktif dalam kelulusan akreditasi rumah sakit berdasarkan kriteria SNARS (Standar Nasional Akreditasi RS).</li>
+            </ul>
+            <div class="timeline-tech-stack">
+              <span class="tech-chip">Windows Server 2008/2012</span>
+              <span class="tech-chip">Active Directory & FSRM</span>
+              <span class="tech-chip">SQL Server Database</span>
+              <span class="tech-chip">SIMRS 24/7</span>
+              <span class="tech-chip">Akreditasi SNARS</span>
+              <span class="tech-chip">RAB IT & SOP IT</span>
+              <span class="tech-chip">Indorak Setup</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Kualifikasi</span>
+        <h2 class="section-title">Pendidikan & <span class="gradient-text">Pelatihan</span></h2>
+        <p class="section-description">
+          Latar belakang pendidikan formal dan pelatihan kejuruan bidang Sistem Informasi & Teknik Komputer Jaringan
+        </p>
+      </div>
+
+      <div class="edu-grid reveal">
+        <!-- Education 1 -->
+        <div class="edu-card">
+          <div class="edu-icon-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div>
+            <h3 class="edu-institution">Universitas Terbuka</h3>
+            <div class="edu-major">Sarjana Sistem Informasi (S1)</div>
+            <div class="edu-meta"><i class="fa-solid fa-calendar-days"></i> Jan 2022 – Des 2026</div>
+            <p class="edu-desc">
+              Pendidikan tinggi jenjang Sarjana pada program studi Sistem Informasi dengan spesialisasi di IT Spesialis. Mempelajari rekayasa perangkat lunak, perancangan basis data, tata kelola IT enterprise, keamanan sistem informasi, serta manajemen proyek teknologi.
+            </p>
+          </div>
+        </div>
+
+        <!-- Education 2 -->
+        <div class="edu-card">
+          <div class="edu-icon-box">
+            <i class="fa-solid fa-network-wired"></i>
+          </div>
+          <div>
+            <h3 class="edu-institution">Al - Azhar</h3>
+            <div class="edu-major">Teknik Komputer dan Jaringan</div>
+            <div class="edu-meta"><i class="fa-solid fa-calendar-days"></i> Jan 2014 – Jan 2015</div>
+            <p class="edu-desc">
+              Pendidikan dan pelatihan intensif spesialisasi Teknik Komputer dan Jaringan (TKJ). Menguasai perakitan komputer & server, konfigurasi routing jaringan LAN/WAN, instalasi switch & kabel jaringan, serta troubleshooting sistem komputer.
+            </p>
+            <div class="grade-chip">
+              <i class="fa-solid fa-award"></i> Nilai Akhir: 3.51
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag"><i class="fa-solid fa-envelope"></i> Hubungi Langsung</span>
+        <h2 class="section-title">Kontak & <span class="gradient-text">Kolaborasi</span></h2>
+        <p class="section-description">
+          Tertarik untuk mendiskusikan peluang kerja, proyek IT, pengelolaan data center, atau infrastruktur jaringan? Silakan hubungi langsung melalui saluran di bawah.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Cards -->
+        <div class="contact-info-cards reveal">
+          <a href="cv.pdf" target="_blank" class="contact-card">
+            <div class="contact-icon" style="background: rgba(239, 68, 68, 0.1); color: #ef4444;">
+              <i class="fa-solid fa-file-pdf"></i>
+            </div>
+            <div>
+              <div class="contact-label">Curriculum Vitae (PDF)</div>
+              <div class="contact-value" style="font-size: 0.95rem;">Unduh CV Saiful Anwar</div>
+            </div>
+          </a>
+
+          <a href="mailto:anwar5th@gmail.com" class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <div class="contact-label">Alamat Email</div>
+              <div class="contact-value" style="font-family: var(--font-mono); font-size: 0.95rem;">anwar5th@gmail.com</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/saiful-anwar-304217138/" target="_blank" class="contact-card">
+            <div class="contact-icon" style="background: rgba(10, 102, 194, 0.1); color: #0a66c2;">
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <div>
+              <div class="contact-label">LinkedIn Profile</div>
+              <div class="contact-value" style="font-size: 0.95rem;">linkedin.com/in/saiful-anwar-304217138</div>
+            </div>
+          </a>
+
+          <a href="https://github.com/anwar5th" target="_blank" class="contact-card">
+            <div class="contact-icon" style="background: rgba(139, 92, 246, 0.1); color: var(--accent-purple);">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <div>
+              <div class="contact-label">GitHub Repository</div>
+              <div class="contact-value">github.com/anwar5th</div>
+            </div>
+          </a>
+
+          <a href="https://anwar5th.github.io/portofolio/" target="_blank" class="contact-card">
+            <div class="contact-icon" style="background: rgba(0, 242, 254, 0.1); color: var(--accent-cyan);">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div>
+              <div class="contact-label">Portofolio Web</div>
+              <div class="contact-value" style="font-size: 0.95rem;">anwar5th.github.io/portofolio</div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Contact Form Box -->
+        <div class="contact-form-box reveal">
+          <h3 style="font-size: 1.35rem; margin-bottom: 1.5rem;">Kirim Pesan Email</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="formName" class="form-label">Nama Lengkap</label>
+              <input type="text" id="formName" class="form-input" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+              <label for="formEmail" class="form-label">Alamat Email Anda</label>
+              <input type="email" id="formEmail" class="form-input" placeholder="nama@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="formSubject" class="form-label">Subjek Pesan</label>
+              <input type="text" id="formSubject" class="form-input"
+                placeholder="Misal: Peluang Kerja IT Support / System Admin" required>
+            </div>
+            <div class="form-group">
+              <label for="formMessage" class="form-label">Isi Pesan</label>
+              <textarea id="formMessage" class="form-textarea" placeholder="Tuliskan rincian pesan atau tawaran kerja Anda..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Kirim Pesan Email
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="nav-brand" style="justify-content: center;">
+          <div class="brand-icon">SA</div>
+          <span>Saiful<span class="gradient-text">.IT</span></span>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.9rem;">
+          IT Support & System Administrator Specialist
+        </p>
+        <div class="footer-socials">
+          <a href="cv.pdf" target="_blank" class="social-icon" aria-label="CV PDF" title="Unduh CV PDF"><i
+              class="fa-solid fa-file-pdf"></i></a>
+          <a href="mailto:anwar5th@gmail.com" class="social-icon" aria-label="Email" title="Email"><i
+              class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/saiful-anwar-304217138/" target="_blank" class="social-icon" aria-label="LinkedIn" title="LinkedIn"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/anwar5th" target="_blank" class="social-icon" aria-label="GitHub" title="GitHub"><i
+              class="fa-brands fa-github"></i></a>
+        </div>
+        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 1rem;">
+          © 2026 Saiful Anwar. All rights reserved. Sesuai kurikulum & pengalaman profesional CV.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-emerald);"></i>
+    <span id="toastMsg">Notification message</span>
+  </div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
